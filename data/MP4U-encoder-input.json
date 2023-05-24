@@ -7,157 +7,211 @@
     {
       "pin": 1,
       "name": "CHA_PRM$-",
-      "description": "Primary channel A, CLK, or Data inverted input",
+      "description": "Primary AQB Incremental digital encoder, channel A inverted input",
+      "function": "A-",
+      "color": null
+    },
+    {
+      "pin": 1,
+      "name": "CHA_PRM$-",
+      "description": "Primary Absolute Encoder Data-",
+      "function": "DATA-",
       "color": null
     },
     {
       "pin": 2,
       "name": "CHB_PRM$-",
-      "description": "Primary channel B, DIR, or CLK inverted input",
+      "description": "Primary AQB Incremental digital encoder, channel B inverted input",
+      "function": "B-",
+      "color": null
+    },
+    {
+      "pin": 2,
+      "name": "CHB_PRM$-",
+      "description": "Primary Absolute Encoder CLK-",
+      "function": "CLK-",
       "color": null
     },
     {
       "pin": 3,
       "name": "CHI_PRM$-",
       "description": "Primary channel I (index) inverted input",
+      "function": "I-",
       "color": null
     },
     {
       "pin": 4,
       "name": "HB_$",
       "description": "Motor Hall B",
+      "function": "HallA",
       "color": null
     },
     {
       "pin": 5,
       "name": "V_SUP_SFTY",
       "description": "Supply for limits input",
+      "function": "L+V",
       "color": null
     },
     {
       "pin": 6,
       "name": "RL_$",
       "description": "Right limit",
+      "function": "RL",
       "color": null
     },
     {
       "pin": 7,
       "name": "SIN_PRM$-",
       "description": "Primary Sin-Cos encoder, SIN inverted input",
+      "function": "SIN-",
       "color": null
     },
     {
       "pin": 8,
       "name": "COS_PRM$-",
       "description": "Primary Sin-Cos encoder, COS inverted input",
+      "function": "COS-",
       "color": null
     },
     {
       "pin": 9,
       "name": "SC_I_PRM$-",
       "description": "Primary Sin-Cos encoder, Index inverted input",
+      "function": "IDX-",
       "color": null
     },
     {
       "pin": 10,
       "name": "CHA_PRM$+",
-      "description": "Primary channel A, CLK, or Data non-inverted input",
+      "description": "Primary AQB Incremental digital encoder, channel A non-inverted input",
+      "function": "A+",
+      "color": null
+    },
+    {
+      "pin": 10,
+      "name": "CHA_PRM$+",
+      "description": "Primary Absolute Encoder Data+",
+      "function": "DATA+",
       "color": null
     },
     {
       "pin": 11,
       "name": "CHB_PRM$+",
-      "description": "Primary channel B, DIR, or CLK non-inverted input",
+      "description": "Primary AQB Incremental digital encoder, channel B non-inverted input",
+      "function": "B+",
+      "color": null
+    },
+    {
+      "pin": 11,
+      "name": "CHB_PRM$+",
+      "description": "Primary Absolute Encoder CLK+",
+      "function": "CLK+",
       "color": null
     },
     {
       "pin": 12,
       "name": "CHI_PRM$+",
       "description": "Primary channel I (index) non-inverted input",
+      "function": "I+",
       "color": null
     },
     {
       "pin": 13,
       "name": "HA_$",
       "description": "Motor Hall A",
+      "function": "HallA",
       "color": null
     },
     {
       "pin": 14,
       "name": "HC_$",
       "description": "Motor Hall C",
+      "function": "HallC",
       "color": null
     },
     {
       "pin": 15,
       "name": "LL_$",
       "description": "Left limit",
+      "function": "LL",
       "color": null
     },
     {
       "pin": 16,
       "name": "SIN_PRM$+",
       "description": "Primary Sin-Cos encoder, SIN non-inverted input",
+      "function": "SIN+",
       "color": null
     },
     {
       "pin": 17,
       "name": "COS_PRM$+",
       "description": "Primary Sin-Cos encoder, COS non-inverted input",
+      "function": "COS+",
       "color": null
     },
     {
       "pin": 18,
       "name": "SC_I_PRM$+",
       "description": "Primary Sin-Cos encoder, Index non-inverted input",
+      "function": "IDX+",
       "color": null
     },
     {
       "pin": 19,
       "name": "5U",
       "description": "5V user supply for digital encoders and Hall",
+      "function": "D+5V",
       "color": null
     },
     {
       "pin": 20,
       "name": "DGND",
       "description": "5V user supply return for digital encoders and Hall",
+      "function": "DGND",
       "color": null
     },
     {
       "pin": 21,
       "name": "NC",
       "description": "Not connected",
+      "function": "NC",
       "color": null
     },
     {
       "pin": 22,
       "name": "MTMP_$",
       "description": "Motor temperature sensor",
+      "function": "MTMP",
       "color": null
     },
     {
       "pin": 23,
       "name": "DGND",
       "description": "Motor temperature sensor return",
+      "function": "MGND",
       "color": null
     },
     {
       "pin": 24,
       "name": "V_RTN_SFTY",
       "description": "Supply return for limits input",
+      "function": "LGND",
       "color": null
     },
     {
       "pin": 25,
       "name": "5F",
       "description": "5V user supply for Sin-Cos encoders and Hall",
+      "function": "SC+5V",
       "color": null
     },
     {
       "pin": 26,
       "name": "AGND",
       "description": "5V user supply return for Sin-Cos encoders and Hall",
+      "function": "AGND",
       "color": null
     }]
 }

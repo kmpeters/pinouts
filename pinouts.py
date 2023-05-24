@@ -18,8 +18,15 @@ data1 = readJsonFile(file1)
 data2 = readJsonFile(file2)
 
 for pinDict in data1['pinout']:
-	print(pinDict['pin'], pinDict['name'])
+	#print(pinDict['pin'], pinDict['name'])
 	
 	# Loop over pins on other connector
 	for otherPinDict in data2['pinout']:
-		print('\t', otherPinDict['pin'], otherPinDict['name'])
+		#print('\t', otherPinDict['pin'], otherPinDict['name'])
+		#print(pinDict['pin'], pinDict['function'],'\t', otherPinDict['pin'], otherPinDict['function'])
+		
+		if pinDict['function'] == otherPinDict['function']:
+			print(pinDict['pin'], pinDict['function'],'\t', otherPinDict['pin'], otherPinDict['function'])
+			break
+	#print()
+	

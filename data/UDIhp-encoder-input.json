@@ -8,90 +8,105 @@
       "pin": 1,
       "name": "#_CHA-",
       "description": "# digital encoder, channel A inverted input",
+      "function": "A-",
       "color": null
     },
     {
       "pin": 2,
       "name": "#_CHB-",
       "description": "# digital encoder, channel B inverted input",
+      "function": "B-",
       "color": null
     },
     {
       "pin": 3,
       "name": "#_CHI-",
       "description": "# digital encoder, channel I (index) inverted input",
+      "function": "I-",
       "color": null
     },
     {
       "pin": 4,
       "name": "#_SIN-",
       "description": "# SIN-COS encoder, SIN inverted input",
+      "function": "SIN-",
       "color": null
     },
     {
       "pin": 5,
       "name": "#_COS-",
       "description": "# SIN-COS encoder, COS inverted input",
+      "function": "COS-",
       "color": null
     },
     {
       "pin": 6,
       "name": "#_CHA+",
       "description": "# digital encoder, channel A noninverted input",
+      "function": "A+",
       "color": null
     },
     {
       "pin": 7,
       "name": "#_CHB+",
       "description": "# digital encoder, channel B noninverted input",
+      "function": "B+",
       "color": null
     },
     {
       "pin": 8,
       "name": "#_CHI+",
       "description": "# digital encoder, channel I (index) noninverted input",
+      "function": "I+",
       "color": null
     },
     {
       "pin": 9,
       "name": "#_SIN+",
       "description": "# SIN-COS encoder, SIN noninverted input",
+      "function": "SIN+",
       "color": null
     },
     {
       "pin": 10,
       "name": "#_COS+",
       "description": "# SIN-COS encoder, COS noninverted input",
+      "function": "COS+",
       "color": null
     },
     {
       "pin": 11,
       "name": "V_SUP_ENC",
       "description": "Encoders 5V supply '+'",
+      "function": "+5V",
       "color": null
     },
     {
       "pin": 12,
       "name": "V_RTN_ENC",
       "description": "Encoders 5V supply return",
+      "function": "GND",
       "color": null
     },
     {
       "pin": 13,
       "name": "SHIELD",
       "description": "SHIELD",
+      "function": "SHIELD",
       "color": null
     },
     {
       "pin": 14,
       "name": "#_SC_HI+",
       "description": "# SIN-COS encoder, index noninverted input",
+      "function": "IDX+",
       "color": null
     },
     {
       "pin": 15,
       "name": "#_SC_HI-",
       "description": "# SIN-COS encoder, index inverted input",
+      "function": "IDX-",
       "color": null
     }]
 }
