@@ -1,0 +1,97 @@
+{
+  "device": "UDIhp",
+  "manufacturer": "ACS Motion Control",
+  "connector" : "Encoder Connector",
+  "connector_type": "DB15HD",
+  "pinout": [
+    {
+      "pin": 1,
+      "name": "#_CHA-",
+      "description": "# digital encoder, channel A inverted input",
+      "color": null
+    },
+    {
+      "pin": 2,
+      "name": "#_CHB-",
+      "description": "# digital encoder, channel B inverted input",
+      "color": null
+    },
+    {
+      "pin": 3,
+      "name": "#_CHI-",
+      "description": "# digital encoder, channel I (index) inverted input",
+      "color": null
+    },
+    {
+      "pin": 4,
+      "name": "#_SIN-",
+      "description": "# SIN-COS encoder, SIN inverted input",
+      "color": null
+    },
+    {
+      "pin": 5,
+      "name": "#_COS-",
+      "description": "# SIN-COS encoder, COS inverted input",
+      "color": null
+    },
+    {
+      "pin": 6,
+      "name": "#_CHA+",
+      "description": "# digital encoder, channel A noninverted input",
+      "color": null
+    },
+    {
+      "pin": 7,
+      "name": "#_CHB+",
+      "description": "# digital encoder, channel B noninverted input",
+      "color": null
+    },
+    {
+      "pin": 8,
+      "name": "#_CHI+",
+      "description": "# digital encoder, channel I (index) noninverted input",
+      "color": null
+    },
+    {
+      "pin": 9,
+      "name": "#_SIN+",
+      "description": "# SIN-COS encoder, SIN noninverted input",
+      "color": null
+    },
+    {
+      "pin": 10,
+      "name": "#_COS+",
+      "description": "# SIN-COS encoder, COS noninverted input",
+      "color": null
+    },
+    {
+      "pin": 11,
+      "name": "V_SUP_ENC",
+      "description": "Encoders 5V supply '+'",
+      "color": null
+    },
+    {
+      "pin": 12,
+      "name": "V_RTN_ENC",
+      "description": "Encoders 5V supply return",
+      "color": null
+    },
+    {
+      "pin": 13,
+      "name": "SHIELD",
+      "description": "SHIELD",
+      "color": null
+    },
+    {
+      "pin": 14,
+      "name": "#_SC_HI+",
+      "description": "# SIN-COS encoder, index noninverted input",
+      "color": null
+    },
+    {
+      "pin": 15,
+      "name": "#_SC_HI-",
+      "description": "# SIN-COS encoder, index inverted input",
+      "color": null
+    }]
+}
