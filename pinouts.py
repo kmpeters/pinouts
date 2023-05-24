@@ -5,8 +5,9 @@
 
 import json
 
-file1 = "data/UDIhp-encoder-input.json"
-file2 = "data/MP4U-encoder-input.json"
+file1 = "data/microZed-encoder-output.json"
+file2 = "data/UDIhp-encoder-input.json"
+#file2 = "data/MP4U-encoder-input.json"
 
 def readJsonFile(filename):
   with open(filename) as fh:

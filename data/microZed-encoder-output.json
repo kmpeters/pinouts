@@ -1,0 +1,35 @@
+{
+  "device": "microZed",
+  "manufacturer": "Tim Mooney",
+  "connector" : "Encoder Connector",
+  "connector_type": "DB9",
+  "pinout": [
+    {
+      "pin": 2,
+      "name": "A1+",
+      "description": "microZed pin 48, channel A noninverted input",
+      "function": "A+",
+      "color": null
+    },
+    {
+      "pin": 3,
+      "name": "B1+",
+      "description": "microZed pin 50, channel B noninverted input",
+      "function": "B+",
+      "color": null
+    },
+    {
+      "pin": 7,
+      "name": "A1-",
+      "description": "microZed pin 49, channel A inverted input",
+      "function": "A-",
+      "color": null
+    },
+    {
+      "pin": 8,
+      "name": "B1-",
+      "description": "microZed pin 53, channel B inverted input",
+      "function": "B-",
+      "color": null
+    }]
+}
